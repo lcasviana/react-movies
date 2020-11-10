@@ -24,7 +24,7 @@ export const MovieInfo = (props) => {
           </Link>
         </header>
         <article className="card ma3 flex-row">
-          <img src={`http://image.tmdb.org/t/p/w500${movie?.poster_path}`} alt={movie?.title} style={{ width: '200px' }} />
+          <img src={`http://image.tmdb.org/t/p/w500${movie?.poster_path}`} alt={movie?.title} style={{ width: '200px', height: '300px' }} />
           <div className="card-body">
             <h5 className="card-title"> {movie?.title} </h5>
             <p className="card-text"> {movie?.overview} </p>
